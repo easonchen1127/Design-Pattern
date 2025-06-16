@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.solid.isp.MultiFunctionPrinterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:22" hostname="LAPTOP-TPDVFO1S" time="0.002">
+  <properties/>
+  <testcase name="fax_outputsCorrectly()" classname="com.solid.isp.MultiFunctionPrinterTest" time="0.001"/>
+  <testcase name="scan_outputsCorrectly()" classname="com.solid.isp.MultiFunctionPrinterTest" time="0.001"/>
+  <testcase name="print_outputsCorrectly()" classname="com.solid.isp.MultiFunctionPrinterTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

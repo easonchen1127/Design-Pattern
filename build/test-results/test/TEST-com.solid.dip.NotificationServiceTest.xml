@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.solid.dip.NotificationServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:22" hostname="LAPTOP-TPDVFO1S" time="0.03">
+  <properties/>
+  <testcase name="sendNotification_withNullRecipient_doesNotCallMessageSender()" classname="com.solid.dip.NotificationServiceTest" time="0.027"/>
+  <testcase name="sendNotification_callsMessageSenderWithMessage()" classname="com.solid.dip.NotificationServiceTest" time="0.001"/>
+  <testcase name="sendNotification_withEmptyMessage_doesNotCallMessageSender()" classname="com.solid.dip.NotificationServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Recipient and message cannot be empty.
+Recipient and message cannot be empty.
+]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.structural.adapter.LogAdapterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.028">
+  <properties/>
+  <testcase name="logWarning_callsLegacyWriteLogEntryWithWarn()" classname="com.patterns.structural.adapter.LogAdapterTest" time="0.018"/>
+  <testcase name="constructor_nullLegacyWriter_throwsIllegalArgumentException()" classname="com.patterns.structural.adapter.LogAdapterTest" time="0.002"/>
+  <testcase name="logInfo_callsLegacyWriteLogEntryWithInfo()" classname="com.patterns.structural.adapter.LogAdapterTest" time="0.002"/>
+  <testcase name="logError_withNullException_callsLegacyWriteCriticalError()" classname="com.patterns.structural.adapter.LogAdapterTest" time="0.002"/>
+  <testcase name="logError_withException_callsLegacyWriteCriticalErrorWithDetails()" classname="com.patterns.structural.adapter.LogAdapterTest" time="0.002"/>
+  <system-out><![CDATA[LogAdapter created for LegacyLogWriter.
+LogAdapter created for LegacyLogWriter.
+LogAdapter created for LegacyLogWriter.
+LogAdapter created for LegacyLogWriter.
+LogAdapter created for LegacyLogWriter.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

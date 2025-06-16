@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.structural.proxy.RealImageTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:19" hostname="LAPTOP-TPDVFO1S" time="3.008">
+  <properties/>
+  <testcase name="constructor_loadsImageAndSetsFileName()" classname="com.patterns.structural.proxy.RealImageTest" time="1.502"/>
+  <testcase name="display_doesNotThrowException()" classname="com.patterns.structural.proxy.RealImageTest" time="1.506"/>
+  <system-out><![CDATA[RealImage: Simulating loading 'test_image.jpg' (takes time)...
+RealImage: Loaded image 'test_image.jpg' from disk.
+RealImage: Simulating loading 'display_test.png' (takes time)...
+RealImage: Loaded image 'display_test.png' from disk.
+RealImage: Displaying image 'display_test.png'. Content: Pixel data for display_test.png
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

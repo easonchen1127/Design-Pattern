@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.solid.srp.PayCalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:22" hostname="LAPTOP-TPDVFO1S" time="0.004">
+  <properties/>
+  <testcase name="testCalculatePayZeroHours()" classname="com.solid.srp.PayCalculatorTest" time="0.0"/>
+  <testcase name="testCalculatePayLessThanRegularHours()" classname="com.solid.srp.PayCalculatorTest" time="0.0"/>
+  <testcase name="testCalculatePayWithOvertime()" classname="com.solid.srp.PayCalculatorTest" time="0.001"/>
+  <testcase name="testCalculatePayWithNullEmployeeThrowsException()" classname="com.solid.srp.PayCalculatorTest" time="0.001"/>
+  <testcase name="testCalculatePayRegularHours()" classname="com.solid.srp.PayCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

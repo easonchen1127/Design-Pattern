@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.creational.factory.SpreadsheetDocumentTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.006">
+  <properties/>
+  <testcase name="getType_shouldReturnSpreadsheet()" classname="com.patterns.creational.factory.SpreadsheetDocumentTest" time="0.003"/>
+  <testcase name="open_shouldNotThrow()" classname="com.patterns.creational.factory.SpreadsheetDocumentTest" time="0.001"/>
+  <testcase name="save_shouldNotThrow()" classname="com.patterns.creational.factory.SpreadsheetDocumentTest" time="0.001"/>
+  <system-out><![CDATA[SpreadsheetDocument created with 10 rows and 5 columns.
+SpreadsheetDocument created with 5 rows and 5 columns.
+Opening SpreadsheetDocument [5x5].
+SpreadsheetDocument created with 20 rows and 10 columns.
+Saving SpreadsheetDocument to: /test/sheet.xlsx
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.creational.abstractfactory.ApplicationTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.076">
+  <properties/>
+  <testcase name="constructor_shouldCreateUIElementsUsingFactory()" classname="com.patterns.creational.abstractfactory.ApplicationTest" time="0.066"/>
+  <testcase name="simulateTextFieldInput_shouldCallOnInputAndGetText()" classname="com.patterns.creational.abstractfactory.ApplicationTest" time="0.003"/>
+  <testcase name="run_shouldPaintButtonAndRenderTextField()" classname="com.patterns.creational.abstractfactory.ApplicationTest" time="0.002"/>
+  <testcase name="simulateButtonClick_shouldCallOnClickOnButton()" classname="com.patterns.creational.abstractfactory.ApplicationTest" time="0.002"/>
+  <system-out><![CDATA[Configuring application with a specific GUI style...
+Configuring application with a specific GUI style...
+Text field current value: Hello Abstract Factory
+Configuring application with a specific GUI style...
+Application running...
+Configuring application with a specific GUI style...
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

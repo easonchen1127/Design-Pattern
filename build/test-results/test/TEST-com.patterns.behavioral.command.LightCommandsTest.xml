@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.behavioral.command.LightCommandsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:15" hostname="LAPTOP-TPDVFO1S" time="0.083">
+  <properties/>
+  <testcase name="lightOffCommand_undo_callsLightOn()" classname="com.patterns.behavioral.command.LightCommandsTest" time="0.066"/>
+  <testcase name="lightOnCommand_undo_callsLightOff()" classname="com.patterns.behavioral.command.LightCommandsTest" time="0.004"/>
+  <testcase name="lightOnCommand_execute_callsLightOn()" classname="com.patterns.behavioral.command.LightCommandsTest" time="0.002"/>
+  <testcase name="lightOffCommand_execute_callsLightOff()" classname="com.patterns.behavioral.command.LightCommandsTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

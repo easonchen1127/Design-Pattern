@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.behavioral.strategy.ShoppingCartTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:14" hostname="LAPTOP-TPDVFO1S" time="1.023">
+  <properties/>
+  <testcase name="addItem_increasesTotal()" classname="com.patterns.behavioral.strategy.ShoppingCartTest" time="0.939"/>
+  <testcase name="checkout_withStrategySet_callsPayOnStrategy()" classname="com.patterns.behavioral.strategy.ShoppingCartTest" time="0.051"/>
+  <testcase name="removeItem_decreasesTotal()" classname="com.patterns.behavioral.strategy.ShoppingCartTest" time="0.003"/>
+  <testcase name="checkout_strategyPayReturnsFalse_checkoutReturnsFalse()" classname="com.patterns.behavioral.strategy.ShoppingCartTest" time="0.009"/>
+  <testcase name="checkout_withNoStrategySet_returnsFalse()" classname="com.patterns.behavioral.strategy.ShoppingCartTest" time="0.003"/>
+  <testcase name="checkout_withEmptyCart_returnsTrueAndDoesNotCallPay()" classname="com.patterns.behavioral.strategy.ShoppingCartTest" time="0.007"/>
+  <system-out><![CDATA[Item1 added to cart. Price: $10.00
+Item2 added to cart. Price: $20.50
+Product added to cart. Price: $50.00
+Payment strategy set to: MockedStrategyName
+Total amount to pay: $50.00
+Item1 added to cart. Price: $10.00
+Item2 added to cart. Price: $20.50
+Item1 removed from cart.
+Expensive Product added to cart. Price: $100.00
+Payment strategy set to: MockedStrategyName
+Total amount to pay: $100.00
+Test added to cart. Price: $1.00
+Payment strategy set to: MockedStrategyName
+Total amount to pay: $0.00
+Cart is empty. Nothing to checkout.
+]]></system-out>
+  <system-err><![CDATA[Payment strategy not set. Cannot checkout.
+]]></system-err>
+</testsuite>

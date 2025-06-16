@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.structural.proxy.ImageProxyTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="3.031">
+  <properties/>
+  <testcase name="getFileName_returnsFileNameWithoutLoadingRealImage()" classname="com.patterns.structural.proxy.ImageProxyTest" time="0.002"/>
+  <testcase name="display_loadsRealImageOnFirstCall()" classname="com.patterns.structural.proxy.ImageProxyTest" time="1.516"/>
+  <testcase name="display_subsequentCalls_doNotReloadRealImage()" classname="com.patterns.structural.proxy.ImageProxyTest" time="1.511"/>
+  <testcase name="constructor_doesNotLoadRealImageImmediately()" classname="com.patterns.structural.proxy.ImageProxyTest" time="0.001"/>
+  <system-out><![CDATA[ImageProxy: Created for 'metadata_test.bmp' (RealImage not loaded yet).
+--- Test: display_loadsRealImageOnFirstCall ---
+ImageProxy: Created for 'first_display.jpg' (RealImage not loaded yet).
+ImageProxy: RealImage for 'first_display.jpg' needs to be loaded.
+RealImage: Simulating loading 'first_display.jpg' (takes time)...
+RealImage: Loaded image 'first_display.jpg' from disk.
+ImageProxy: Delegating display call to RealImage for 'first_display.jpg'.
+RealImage: Displaying image 'first_display.jpg'. Content: Pixel data for first_display.jpg
+--- End Test: display_loadsRealImageOnFirstCall ---
+--- Test: display_subsequentCalls_doNotReloadRealImage ---
+ImageProxy: Created for 'cached_image.png' (RealImage not loaded yet).
+ImageProxy: RealImage for 'cached_image.png' needs to be loaded.
+RealImage: Simulating loading 'cached_image.png' (takes time)...
+RealImage: Loaded image 'cached_image.png' from disk.
+ImageProxy: Delegating display call to RealImage for 'cached_image.png'.
+RealImage: Displaying image 'cached_image.png'. Content: Pixel data for cached_image.png
+Calling display again for cached_image.png
+ImageProxy: Delegating display call to RealImage for 'cached_image.png'.
+RealImage: Displaying image 'cached_image.png'. Content: Pixel data for cached_image.png
+--- End Test: display_subsequentCalls_doNotReloadRealImage ---
+--- Test: constructor_doesNotLoadRealImageImmediately ---
+ImageProxy: Created for 'lazy_load_test.gif' (RealImage not loaded yet).
+--- End Test: constructor_doesNotLoadRealImageImmediately ---
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

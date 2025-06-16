@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.behavioral.iterator.BookCollectionTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.007">
+  <properties/>
+  <testcase name="addBook_increasesCount()" classname="com.patterns.behavioral.iterator.BookCollectionTest" time="0.001"/>
+  <testcase name="createIterator_onNonEmptyCollection_iteratesCorrectly()" classname="com.patterns.behavioral.iterator.BookCollectionTest" time="0.001"/>
+  <testcase name="createIterator_onEmptyCollection_hasNextIsFalse()" classname="com.patterns.behavioral.iterator.BookCollectionTest" time="0.001"/>
+  <testcase name="addBook_nullBook_doesNotIncreaseCount()" classname="com.patterns.behavioral.iterator.BookCollectionTest" time="0.001"/>
+  <testcase name="createIterator_onEmptyCollection_nextReturnsNull()" classname="com.patterns.behavioral.iterator.BookCollectionTest" time="0.001"/>
+  <testcase name="createIterator_multipleIterators_operateIndependently()" classname="com.patterns.behavioral.iterator.BookCollectionTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

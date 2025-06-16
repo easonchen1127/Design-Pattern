@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.structural.bridge.RemoteControlTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.043">
+  <properties/>
+  <testcase name="basicRemote_togglePower_callsDeviceEnableOrDisable()" classname="com.patterns.structural.bridge.RemoteControlTest" time="0.029"/>
+  <testcase name="constructor_nullDevice_throwsIllegalArgumentException()" classname="com.patterns.structural.bridge.RemoteControlTest" time="0.002"/>
+  <testcase name="basicRemote_volumeUp_callsDeviceSetVolume()" classname="com.patterns.structural.bridge.RemoteControlTest" time="0.002"/>
+  <testcase name="advancedRemote_mute_callsDeviceSetVolumeToZero()" classname="com.patterns.structural.bridge.RemoteControlTest" time="0.001"/>
+  <testcase name="advancedRemote_setFavoriteChannel_callsDeviceSetChannel()" classname="com.patterns.structural.bridge.RemoteControlTest" time="0.004"/>
+  <testcase name="operations_whenDeviceDisabled_doesNotCallDeviceMethods()" classname="com.patterns.structural.bridge.RemoteControlTest" time="0.003"/>
+  <system-out><![CDATA[BasicRemote configured for device: Device$MockitoMock$HKIP2lu8
+BasicRemote configured for device: Device$MockitoMock$HKIP2lu8
+AdvancedRemote configured for device: Device$MockitoMock$HKIP2lu8
+AdvancedRemote: Muting device.
+AdvancedRemote configured for device: Device$MockitoMock$HKIP2lu8
+AdvancedRemote: Setting favorite channel to 77
+BasicRemote configured for device: Device$MockitoMock$HKIP2lu8
+Cannot adjust volume. Device is OFF.
+Cannot adjust volume. Device is OFF.
+Cannot change channel. Device is OFF.
+Cannot change channel. Device is OFF.
+AdvancedRemote configured for device: Device$MockitoMock$HKIP2lu8
+Cannot mute. Device is OFF.
+Cannot set favorite channel. Device is OFF.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

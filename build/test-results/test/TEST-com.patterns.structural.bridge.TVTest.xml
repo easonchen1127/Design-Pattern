@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.structural.bridge.TVTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.002">
+  <properties/>
+  <testcase name="tvOperations()" classname="com.patterns.structural.bridge.TVTest" time="0.002"/>
+  <system-out><![CDATA[Television is now ON.
+Television volume set to 50%.
+Television channel set to 5.
+Television is now OFF.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.solid.ocp.AreaCalculatorTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:22" hostname="LAPTOP-TPDVFO1S" time="0.033">
+  <properties/>
+  <testcase name="testCalculateSingleShapeAreaWithNullShapeThrowsException()" classname="com.solid.ocp.AreaCalculatorTest" time="0.02"/>
+  <testcase name="testCalculateTotalAreaWithNullList()" classname="com.solid.ocp.AreaCalculatorTest" time="0.001"/>
+  <testcase name="testCalculateTotalAreaWithListContainingNullShape()" classname="com.solid.ocp.AreaCalculatorTest" time="0.002"/>
+  <testcase name="testCalculateTotalAreaWithRealShapesDemonstratingOCP()" classname="com.solid.ocp.AreaCalculatorTest" time="0.003"/>
+  <testcase name="testCalculateTotalAreaWithEmptyList()" classname="com.solid.ocp.AreaCalculatorTest" time="0.001"/>
+  <testcase name="testCalculateTotalAreaWithMultipleShapes()" classname="com.solid.ocp.AreaCalculatorTest" time="0.001"/>
+  <testcase name="testCalculateSingleShapeArea()" classname="com.solid.ocp.AreaCalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

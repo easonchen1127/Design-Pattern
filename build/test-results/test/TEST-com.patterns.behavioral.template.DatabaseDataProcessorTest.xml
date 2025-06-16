@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.behavioral.template.DatabaseDataProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.001">
+  <properties/>
+  <testcase name="processData_callsStepsInOrderAndHooks()" classname="com.patterns.behavioral.template.DatabaseDataProcessorTest" time="0.001"/>
+  <system-out><![CDATA[DB Processor: Connecting to database: test_conn_string
+DB Processor: Executing query and loading data from database.
+DB Processor: Transforming database results (e.g., mapping to objects, aggregation).
+DB Processor: (Hook) Starting database transaction before saving.
+DB Processor: Saving transformed data back to database or a data warehouse. Result: TRANSFORMED(raw_db_query_resul...
+Database Data Processor: (Hook) No action after save.
+Database Data Processor: Data processing complete.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

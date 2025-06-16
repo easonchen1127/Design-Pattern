@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.behavioral.command.RemoteControlTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:15" hostname="LAPTOP-TPDVFO1S" time="0.057">
+  <properties/>
+  <testcase name="pressUndoButton_multipleTimes_popsHistoryCorrectly()" classname="com.patterns.behavioral.command.RemoteControlTest" time="0.033"/>
+  <testcase name="pressOnButton_executesOnCommandAndPushesToHistory()" classname="com.patterns.behavioral.command.RemoteControlTest" time="0.002"/>
+  <testcase name="pressOffButton_executesOffCommandAndPushesToHistory()" classname="com.patterns.behavioral.command.RemoteControlTest" time="0.002"/>
+  <testcase name="pressUndoButton_withEmptyHistory_doesNothingExtra()" classname="com.patterns.behavioral.command.RemoteControlTest" time="0.003"/>
+  <testcase name="setCommand_invalidSlot_doesNotSet()" classname="com.patterns.behavioral.command.RemoteControlTest" time="0.003"/>
+  <testcase name="pressUndoButton_withHistory_callsUndoOnLastCommand()" classname="com.patterns.behavioral.command.RemoteControlTest" time="0.002"/>
+  <testcase name="unassignedSlot_executesNoCommand()" classname="com.patterns.behavioral.command.RemoteControlTest" time="0.005"/>
+  <system-out><![CDATA[Remote: Pressing ON button for slot 0 -> Remote: Pressing OFF button for slot 0 -> Remote: Pressing UNDO button -> Remote: Pressing UNDO button -> Remote: Pressing ON button for slot 0 -> Remote: Pressing OFF button for slot 0 -> Remote: Pressing UNDO button -> Nothing to undo.
+Remote: Pressing ON button for slot 0 -> Remote: Pressing UNDO button -> Remote: Pressing ON button for slot 0 -> No command assigned to this slot.
+Remote: Pressing UNDO button -> No command to undo.
+]]></system-out>
+  <system-err><![CDATA[Invalid slot number: 1
+Invalid slot number: 1
+]]></system-err>
+</testsuite>

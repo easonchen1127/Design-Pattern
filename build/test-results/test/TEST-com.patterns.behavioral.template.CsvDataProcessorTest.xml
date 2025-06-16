@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.behavioral.template.CsvDataProcessorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.034">
+  <properties/>
+  <testcase name="processData_callsStepsInOrderAndHooks()" classname="com.patterns.behavioral.template.CsvDataProcessorTest" time="0.034"/>
+  <system-out><![CDATA[CSV Processor: Loading data from CSV file: test.csv
+CSV Processor: Transforming CSV data (e.g., parsing, cleaning).
+CSV Data Processor: (Hook) No action before save.
+CSV Processor: Saving transformed data to a new CSV/report file. Content: RAW CSV DATA FROM TEST.CSV...
+CSV Processor: (Hook) Archiving original CSV file: test.csv
+CSV Data Processor: Data processing complete.
+CSV Processor: Loading data from CSV file: test.csv
+CSV Processor: Transforming CSV data (e.g., parsing, cleaning).
+CSV Data Processor: (Hook) No action before save.
+CSV Processor: Saving transformed data to a new CSV/report file. Content: RAW CSV DATA FROM TEST.CSV...
+CSV Processor: (Hook) Archiving original CSV file: test.csv
+CSV Data Processor: Data processing complete.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

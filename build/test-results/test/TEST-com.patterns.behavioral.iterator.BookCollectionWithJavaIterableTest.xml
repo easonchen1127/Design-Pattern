@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.behavioral.iterator.BookCollectionWithJavaIterableTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.001">
+  <properties/>
+  <testcase name="iterate_usingEnhancedForLoop_iteratesCorrectly()" classname="com.patterns.behavioral.iterator.BookCollectionWithJavaIterableTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

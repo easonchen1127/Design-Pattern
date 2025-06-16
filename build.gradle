@@ -1,0 +1,52 @@
+plugins {
+    id 'java' // Apply the Java plugin to add support for Java
+    id 'application' // Apply the application plugin to easily run the main class
+}
+
+// Define the project's group and version
+group = 'com.example'
+version = '1.0-SNAPSHOT'
+
+// Specify the Java version
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+// Define repositories for dependencies
+repositories {
+    mavenCentral() // Use Maven Central for resolving dependencies
+}
+
+// Define dependencies
+dependencies {
+    // JUnit 5 Jupiter API for writing tests
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+
+    // JUnit 5 Jupiter Engine for running tests
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+    // If you were using Mockito (as commented in EmployeeReporterTest)
+    testImplementation 'org.mockito:mockito-core:5.10.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.10.0'
+}
+
+// Configure the test task to use JUnit Platform (for JUnit 5)
+test {
+    useJUnitPlatform()
+    // Optional: show test results in the console
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
+}
+
+// Configure the application plugin
+application {
+    // Define the main class for the application
+    mainClass = 'com.patterns.singleton.Main'
+}
+
+// Optional: If you want to ensure UTF-8 encoding for compilation
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.behavioral.strategy.PayPalPaymentTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.003">
+  <properties/>
+  <testcase name="getPaymentMethodName_shouldReturnPayPal()" classname="com.patterns.behavioral.strategy.PayPalPaymentTest" time="0.001"/>
+  <testcase name="pay_anyAmount_shouldReturnTrue()" classname="com.patterns.behavioral.strategy.PayPalPaymentTest" time="0.001"/>
+  <system-out><![CDATA[PayPalPayment strategy configured for email: test@example.com
+PayPalPayment strategy configured for email: test@example.com
+Processing PayPal payment of $50.00 for user test@example.com
+PayPal payment SUCCESSFUL.
+Processing PayPal payment of $50000.00 for user test@example.com
+PayPal payment SUCCESSFUL.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

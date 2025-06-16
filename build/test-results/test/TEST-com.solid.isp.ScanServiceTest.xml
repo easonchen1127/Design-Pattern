@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.solid.isp.ScanServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:22" hostname="LAPTOP-TPDVFO1S" time="0.019">
+  <properties/>
+  <testcase name="performScan_callsScanOnScannable()" classname="com.solid.isp.ScanServiceTest" time="0.019"/>
+  <system-out><![CDATA[ScanService: Initiating scan -> ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

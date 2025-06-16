@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.structural.bridge.RadioTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.003">
+  <properties/>
+  <testcase name="radioOperations()" classname="com.patterns.structural.bridge.RadioTest" time="0.003"/>
+  <system-out><![CDATA[Radio is now ON.
+Radio volume set to 70%.
+Radio frequency set to 101 MHz.
+Radio is now OFF.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

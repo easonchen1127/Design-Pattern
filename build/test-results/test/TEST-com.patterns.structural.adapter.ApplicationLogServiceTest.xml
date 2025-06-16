@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.structural.adapter.ApplicationLogServiceTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.031">
+  <properties/>
+  <testcase name="constructor_nullLogger_throwsIllegalArgumentException()" classname="com.patterns.structural.adapter.ApplicationLogServiceTest" time="0.025"/>
+  <testcase name="doSomethingAndLog_whenRandomIsLow_callsLogError()" classname="com.patterns.structural.adapter.ApplicationLogServiceTest" time="0.002"/>
+  <testcase name="doSomethingAndLog_callsLoggerMethods()" classname="com.patterns.structural.adapter.ApplicationLogServiceTest" time="0.003"/>
+  <system-out><![CDATA[ApplicationLogService configured with a Logger.
+ApplicationLogService configured with a Logger.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

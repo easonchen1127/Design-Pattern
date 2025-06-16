@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.behavioral.strategy.CreditCardPaymentTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.004">
+  <properties/>
+  <testcase name="pay_withValidAmount_shouldReturnTrue()" classname="com.patterns.behavioral.strategy.CreditCardPaymentTest" time="0.002"/>
+  <testcase name="getPaymentMethodName_shouldReturnCreditCard()" classname="com.patterns.behavioral.strategy.CreditCardPaymentTest" time="0.001"/>
+  <testcase name="pay_withAmountOverLimit_shouldReturnFalse()" classname="com.patterns.behavioral.strategy.CreditCardPaymentTest" time="0.001"/>
+  <system-out><![CDATA[CreditCardPayment strategy configured for card: 1111
+Processing credit card payment of $100.00 with card 1111
+Credit card payment SUCCESSFUL.
+CreditCardPayment strategy configured for card: 3333
+CreditCardPayment strategy configured for card: 2222
+Processing credit card payment of $15000.00 with card 2222
+Credit card payment FAILED (amount exceeds limit).
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

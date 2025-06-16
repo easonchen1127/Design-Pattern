@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.creational.builder.nested.ComputerBuilderTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.014">
+  <properties/>
+  <testcase name="build_withSomeOptionalFields_shouldSetThemCorrectly()" classname="com.patterns.creational.builder.nested.ComputerBuilderTest" time="0.001"/>
+  <testcase name="toString_shouldReflectComputerSpecifications()" classname="com.patterns.creational.builder.nested.ComputerBuilderTest" time="0.009"/>
+  <testcase name="build_withOnlyRequiredFields_shouldCreateComputer()" classname="com.patterns.creational.builder.nested.ComputerBuilderTest" time="0.0"/>
+  <testcase name="builderConstructor_withEmptyRam_shouldThrowIllegalArgumentException()" classname="com.patterns.creational.builder.nested.ComputerBuilderTest" time="0.001"/>
+  <testcase name="build_withAllFields_shouldCreateComputerWithAllSpecs()" classname="com.patterns.creational.builder.nested.ComputerBuilderTest" time="0.001"/>
+  <testcase name="builderConstructor_withNullCpu_shouldThrowIllegalArgumentException()" classname="com.patterns.creational.builder.nested.ComputerBuilderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

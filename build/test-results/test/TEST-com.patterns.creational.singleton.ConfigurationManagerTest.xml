@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.creational.singleton.ConfigurationManagerTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.008">
+  <properties/>
+  <testcase name="setAndGetSetting_shouldStoreAndRetrieveValue()" classname="com.patterns.creational.singleton.ConfigurationManagerTest" time="0.002"/>
+  <testcase name="getSetting_shouldReturnDefaultValue()" classname="com.patterns.creational.singleton.ConfigurationManagerTest" time="0.001"/>
+  <testcase name="getAllSettings_shouldReturnUnmodifiableMap()" classname="com.patterns.creational.singleton.ConfigurationManagerTest" time="0.001"/>
+  <testcase name="constructor_isPrivateAndPreventsDirectInstantiation()" classname="com.patterns.creational.singleton.ConfigurationManagerTest" time="0.001"/>
+  <testcase name="clone_shouldThrowCloneNotSupportedException()" classname="com.patterns.creational.singleton.ConfigurationManagerTest" time="0.001"/>
+  <testcase name="getInstance_shouldReturnSameInstance()" classname="com.patterns.creational.singleton.ConfigurationManagerTest" time="0.0"/>
+  <system-out><![CDATA[ConfigurationManager: Resetting instance for testing.
+ConfigurationManager: Initializing and loading default settings...
+ConfigurationManager: Instance created.
+ConfigurationManager: Initializing and loading default settings...
+ConfigurationManager: Instance created.
+ConfigurationManager: Setting 'new.setting' to 'new.value'
+ConfigurationManager: Resetting instance for testing.
+ConfigurationManager: Initializing and loading default settings...
+ConfigurationManager: Instance created.
+ConfigurationManager: Resetting instance for testing.
+ConfigurationManager: Initializing and loading default settings...
+ConfigurationManager: Instance created.
+ConfigurationManager: Setting 'test.key' to 'test.value'
+ConfigurationManager: Resetting instance for testing.
+ConfigurationManager: Initializing and loading default settings...
+ConfigurationManager: Instance created.
+ConfigurationManager: Initializing and loading default settings...
+ConfigurationManager: Instance created.
+ConfigurationManager: Initializing and loading default settings...
+ConfigurationManager: Instance created.
+ConfigurationManager: Resetting instance for testing.
+ConfigurationManager: Initializing and loading default settings...
+ConfigurationManager: Instance created.
+ConfigurationManager: Resetting instance for testing.
+ConfigurationManager: Initializing and loading default settings...
+ConfigurationManager: Instance created.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

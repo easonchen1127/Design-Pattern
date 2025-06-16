@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.creational.factory.ReportDocumentTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.004">
+  <properties/>
+  <testcase name="getType_shouldReturnReport()" classname="com.patterns.creational.factory.ReportDocumentTest" time="0.001"/>
+  <testcase name="open_shouldContainContent()" classname="com.patterns.creational.factory.ReportDocumentTest" time="0.001"/>
+  <testcase name="save_shouldNotThrow()" classname="com.patterns.creational.factory.ReportDocumentTest" time="0.001"/>
+  <system-out><![CDATA[ReportDocument created with initial content.
+ReportDocument created with initial content.
+Opening ReportDocument. Content: Initial content for report....
+ReportDocument created with initial content.
+Saving ReportDocument to: /test/path.rpt
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

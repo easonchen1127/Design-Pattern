@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.creational.factory.StandardDocumentCreatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.004">
+  <properties/>
+  <testcase name="newDocument_usesCreateDocument()" classname="com.patterns.creational.factory.StandardDocumentCreatorTest" time="0.0"/>
+  <testcase name="createDocument_reportType_shouldReturnReportDocument()" classname="com.patterns.creational.factory.StandardDocumentCreatorTest" time="0.0"/>
+  <testcase name="createDocument_spreadsheetType_defaultParams_shouldWork()" classname="com.patterns.creational.factory.StandardDocumentCreatorTest" time="0.0"/>
+  <testcase name="createDocument_spreadsheetType_shouldReturnSpreadsheetDocument()" classname="com.patterns.creational.factory.StandardDocumentCreatorTest" time="0.0"/>
+  <testcase name="createDocument_unknownType_shouldThrowIllegalArgumentException()" classname="com.patterns.creational.factory.StandardDocumentCreatorTest" time="0.001"/>
+  <system-out><![CDATA[ReportDocument created with initial content.
+Report document instance requested and created by factory.
+ReportDocument created with initial content.
+SpreadsheetDocument created with 10 rows and 5 columns.
+SpreadsheetDocument created with 50 rows and 10 columns.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

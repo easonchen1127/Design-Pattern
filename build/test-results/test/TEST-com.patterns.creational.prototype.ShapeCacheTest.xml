@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.patterns.creational.prototype.ShapeCacheTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:16" hostname="LAPTOP-TPDVFO1S" time="0.003">
+  <properties/>
+  <testcase name="getShape_returnsClonedRectangle()" classname="com.patterns.creational.prototype.ShapeCacheTest" time="0.001"/>
+  <testcase name="getShape_modifyingCloneDoesNotAffectCachedPrototype()" classname="com.patterns.creational.prototype.ShapeCacheTest" time="0.0"/>
+  <testcase name="getShape_returnsClonedCircle()" classname="com.patterns.creational.prototype.ShapeCacheTest" time="0.0"/>
+  <testcase name="getShape_nonExistentId_returnsNull()" classname="com.patterns.creational.prototype.ShapeCacheTest" time="0.001"/>
+  <system-out><![CDATA[Shape cache loaded with prototypes.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

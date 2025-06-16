@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.solid.lsp.BirdFeederTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:22" hostname="LAPTOP-TPDVFO1S" time="0.046">
+  <properties/>
+  <testcase name="makeOnlyFlyingBirdsFly_callsFlyOnAllFlyingBirds()" classname="com.solid.lsp.BirdFeederTest" time="0.038"/>
+  <testcase name="feedAllBirds_callsEatOnAllBirds()" classname="com.solid.lsp.BirdFeederTest" time="0.002"/>
+  <testcase name="makeBirdsFly_handlesFlyingAndNonFlyingCorrectly()" classname="com.solid.lsp.BirdFeederTest" time="0.005"/>
+  <system-out><![CDATA[
+--- Making only FLYING birds fly (Refactored Design) ---
+
+--- Feeding all birds ---
+
+--- Attempting to make birds fly (Initial Design Problem Demo) ---
+RealSparrow the Sparrow is soaring through the sky!
+RealPenguin cannot fly (or is not a FlyingBird type).
+NonFlyer cannot fly (or is not a FlyingBird type).
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

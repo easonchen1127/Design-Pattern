@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.solid.srp.EmployeeReporterTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-06-14T06:52:22" hostname="LAPTOP-TPDVFO1S" time="0.005">
+  <properties/>
+  <testcase name="testGeneratePaySlipWithNullEmployeeThrowsException()" classname="com.solid.srp.EmployeeReporterTest" time="0.002"/>
+  <testcase name="testGeneratePaySlip()" classname="com.solid.srp.EmployeeReporterTest" time="0.001"/>
+  <testcase name="testGeneratePaySlipWithOvertime()" classname="com.solid.srp.EmployeeReporterTest" time="0.0"/>
+  <testcase name="testConstructorWithNullPayCalculatorThrowsException()" classname="com.solid.srp.EmployeeReporterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
