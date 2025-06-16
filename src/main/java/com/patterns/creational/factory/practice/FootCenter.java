@@ -5,11 +5,16 @@ import java.util.List;
 
 public abstract class FootCenter {
     protected String restaurant = this.getClass().getSimpleName();
-    protected List<IFood> foods = new ArrayList<>();
+    protected List<IFood> foods;
 
     public FootCenter(String restaurant)
     {
         this.restaurant = restaurant;
+    }
+
+    public void createFoods()
+    {
+        foods = new ArrayList<>();
         foods.add(new Water());
     }
 

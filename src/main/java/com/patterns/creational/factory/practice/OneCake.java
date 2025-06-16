@@ -3,6 +3,11 @@ package com.patterns.creational.factory.practice;
 public class OneCake extends FootCenter{
     public OneCake(String restaurant) {
         super(restaurant);
+
+    }
+
+    public void createFoods()
+    {
         foods.add(new Cake());
         foods.add(new Soda());
         foods.add(new IceCream());
