@@ -15,11 +15,12 @@ public class BigBurger extends FootCenter{
         foods.add(new Soda());
     }
 
-    public void DailySet() {
-        String message = "Daily set: " + foods.get(1).getName() + ", " + foods.get(2).getName() + ", " +foods.get(3).getName() + "\n";
-        int sum = foods.get(1).getPrice() + foods.get(2).getPrice() + foods.get(3).getPrice();
-        int discount = (int) Math.round(0.8 * sum);
-        message += "Original price : " + sum + ", Special prices: " + discount;
-        System.out.print(message);
+    public void createDailySet() {
+        dailySet = new ArrayList<>();
+        dailySet.add(new Hambuger());
+        dailySet.add(new Fries());
+        dailySet.add(new Soda());
     }
+
+
 }
