@@ -19,7 +19,6 @@ public class OneCake extends FootCenter{
         dailySet = new ArrayList<>();
         dailySet.add(new Cake());
         dailySet.add(new Soda());
-        dailySet.add(new IceCream());
     }
 
 }
