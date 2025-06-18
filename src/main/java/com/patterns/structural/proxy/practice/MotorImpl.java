@@ -9,12 +9,10 @@ public class MotorImpl implements IMotor{
 
     public void home()
     {
-        System.out.println(name + "home successfully");
         currentCount = 0;
     }
 
     public void move(int count) {
-        System.out.println(name + "move to " + count);
         currentCount = count;
     }
 
