@@ -1,9 +1,9 @@
 package com.patterns.structural.adapter;
 
-// Adapter: Adapts the interface of Adaptee to the Target interface.
+// Adapter: Adapts the interface of Adapter to the Target interface.
 // This is an Object Adapter (uses composition).
 public class LogAdapter implements Logger {
-    private final LegacyLogWriter legacyLogWriter; // Adaptee instance
+    private final LegacyLogWriter legacyLogWriter; // Adapter instance
 
     public LogAdapter(LegacyLogWriter legacyLogWriter) {
         if (legacyLogWriter == null) {
