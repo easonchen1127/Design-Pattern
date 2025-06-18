@@ -6,6 +6,7 @@ public class MotorProxy implements IMotor{
 
     public MotorProxy()
     {
+        // When the creation cost is high, you should think about lazy initialization
         this.motor = new MotorImpl();
         name = motor.getMotorName();
     }
